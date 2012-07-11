@@ -1,0 +1,17 @@
+html, body{
+	background: lightgrey;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+header{
+	margin-top: 2em;
+}
+
+#tagline{
+	margin-top: 4em;
+
+}
+#contact{
+	margin-top: 16em;
+}
