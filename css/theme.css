@@ -1,20 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+
 html, body{
-	background: lightgrey;
+	background: #222;
 	text-align: center;
 	font-family: sans-serif;
+	background-image: url(../img/background.png);
+	height: 100%;
 }
 
 header{
-	margin-top: 2em;
+	width: 100%;
+	min-height: 250px;
+}
+
+#logo {
+	height: 100px;
+	padding: 25px;
 }
 
 #tagline{
-	margin-top: 2em;
-	font-family: helvetica;
+	width: 100%;
+	font-family: 'Arvo', serif;
 	font-size: 300%;
 	color: white;
+	clear: both;
 }
 
-#contact{
-	margin-top: 16em;
+#tagline p{
+	padding: 25px;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -65px;
+}
+
+.push {
+    height: 75px;
+}
+
+
+footer {
+	color: #666;
+	background: #222;
+	font-family: Helvetica;
+	font-size: 150%;	
+	padding: 10px 0 10px 0; 
+	height: 45px;
+	line-height: 125%;
 }
