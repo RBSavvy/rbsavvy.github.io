@@ -9,9 +9,12 @@ header{
 }
 
 #tagline{
-	margin-top: 4em;
-
+	margin-top: 2em;
+	font-family: helvetica;
+	font-size: 300%;
+	color: white;
 }
+
 #contact{
 	margin-top: 16em;
 }
