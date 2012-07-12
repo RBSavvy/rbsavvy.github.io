@@ -6,6 +6,8 @@ html, body{
 	font-family: sans-serif;
 	background-image: url(../img/background.png);
 	height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 header{
@@ -14,20 +16,26 @@ header{
 }
 
 #logo {
-	height: 100px;
-	padding: 25px;
+  width: 500px;
+	padding: 0px;
 }
 
 #tagline{
-	width: 100%;
 	font-family: 'Arvo', serif;
-	font-size: 300%;
-	color: white;
-	clear: both;
+	font-size: 2.75em;
+	color: white;  
+  position: fixed;
+  left: 50%;
+  top: 15%;
+  height: 200px;
+  width: 500px;
+  margin-left: -250px;
+  margin-top: 150px;
+  
 }
 
-#tagline p{
-	padding: 25px;
+#tagline p:first-child{
+  padding-bottom: 1em;
 }
 
 .wrapper {
@@ -41,12 +49,14 @@ header{
     height: 75px;
 }
 
-
 footer {
+  white-space: nowrap;
+  position:fixed;
+  width: 100%;
 	color: #666;
 	background: #222;
 	font-family: Helvetica;
-	font-size: 150%;	
+	font-size: 1.25em;	
 	padding: 10px 0 10px 0; 
 	height: 45px;
 	line-height: 125%;
