@@ -111,10 +111,11 @@ input, select {
     display: none;
 }
 
-#recent-work-modal1, #recent-work-modal2, #recent-work-modal3{
+.recent-work-modal {
 	display: none;
 	width: 700px;
 	background: #f7f7f7;
+  margin-top: 125px;
 	padding:15px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
