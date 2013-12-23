@@ -6,4 +6,4 @@ We often get blank stares from our clients as we explain the intricies of infras
 
 Your average web application consists of a few major parts: web servers, application servers, database servers, and background task servers.  Depending on the number of web requests and the complexity and quality of code, you may need more than a single web, application, database server... etc.
 
-Also, depending on the complexity or functionality of your application, you may have other servers or services such as email, caching, 
+Also, depending on the complexity or functionality of your application, you may have other servers or services such as email, caching, memory, or servers. We will not cover these exceptions at this point.
