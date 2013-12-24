@@ -1,0 +1,21 @@
+prose:
+  rooturl: ''
+  siteurl: 'http://rbsavvy.com'
+  relativeLinks: 'http://rbsavvy.com'
+  media: 'media'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
